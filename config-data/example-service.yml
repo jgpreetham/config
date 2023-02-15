@@ -6,5 +6,5 @@ config.someProperty: default profile value
 spring:
     config:
         activate:
-            on-profile: prod
+            on-profile: test
 config.someProperty: value from test profile    
