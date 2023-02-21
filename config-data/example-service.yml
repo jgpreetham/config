@@ -1,3 +1,4 @@
+---
 server:
   port: 8111
 config.someProperty: updated default profile value
