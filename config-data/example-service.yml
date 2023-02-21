@@ -2,29 +2,11 @@ server:
   port: 8111
 config.someProperty: updated default profile value
 
-spring:
-  cloud:
-    bus:
-      enabled: true
-      refresh:
-        enabled: true
-
-management:
-  security:
-    enabled: false
-  endpoints:
-    web:
-      exposure:
-        include: busrefresh
-
 ---
 spring:
     config:
         activate:
-            on-profile: test
-cloud:
-    config:
-      profile: test            
+            on-profile: test            
 server:
   port: 8110       
 config.someProperty: value from test profile2    
