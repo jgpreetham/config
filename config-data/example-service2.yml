@@ -1,6 +1,6 @@
 server:
   port: 8112
-config.property: 666
+config.property: 111
 management:
   security:
     enabled: false
