@@ -1,12 +1,14 @@
 server:
   port: 8111
 config.someProperty: updated default profile value
+
 spring:
   cloud:
     bus:
       enabled: true
       refresh:
         enabled: true
+
 management:
   security:
     enabled: false
@@ -14,9 +16,7 @@ management:
     web:
       exposure:
         include: busrefresh
-management:
-  security:
-    enabled: false
+
 ---
 spring:
     config:
