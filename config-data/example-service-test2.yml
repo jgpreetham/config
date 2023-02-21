@@ -1,3 +1,0 @@
-server:
-  port: 8119      
-config.someProperty: value from test2 profile
