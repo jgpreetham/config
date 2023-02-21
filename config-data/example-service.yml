@@ -1,6 +1,6 @@
 server:
   port: 8111
-config.someProperty: updated default profile value1
+config.someProperty: updated default profile value
 ---
 spring:
     config:
