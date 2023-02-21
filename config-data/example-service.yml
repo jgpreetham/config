@@ -22,6 +22,9 @@ spring:
     config:
         activate:
             on-profile: test
+cloud:
+    config:
+      profile: test            
 server:
   port: 8110       
 config.someProperty: value from test profile2    
