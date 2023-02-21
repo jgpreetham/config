@@ -1,6 +1,8 @@
 server:
   port: 8113
-
+management:
+  security:
+    enabled: false
 eureka:
    client:
       serviceUrl:
