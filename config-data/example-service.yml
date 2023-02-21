@@ -8,4 +8,4 @@ spring:
             on-profile: test            
 server:
   port: 8110       
-config.someProperty: value from test profile   
+config.someProperty: value from test profile2 
