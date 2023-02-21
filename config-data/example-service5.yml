@@ -7,7 +7,10 @@ eureka:
          defaultZone: http://localhost:8761/eureka
       instance:
       preferIpAddress: true
-      
+
+management:
+  security:
+    enabled: false
 ---
 spring:
     config:
