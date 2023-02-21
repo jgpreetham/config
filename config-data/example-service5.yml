@@ -8,9 +8,7 @@ eureka:
       instance:
       preferIpAddress: true
 
-management:
-  security:
-    enabled: false
+
 ---
 spring:
     config:
