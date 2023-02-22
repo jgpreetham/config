@@ -1,2 +1,6 @@
 server:
   port:8119
+spring:
+    config:
+        activate:
+            on-profile: test2
