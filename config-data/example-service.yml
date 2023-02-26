@@ -1,7 +1,7 @@
 ---
 server:
   port: 8111
-config.someProperty: updated default profile value
+config.someProperty: default profile value
 ---
 spring:
     config:
@@ -9,4 +9,4 @@ spring:
             on-profile: test            
 server:
   port: 8110       
-config.someProperty: value from test profile
+config.someProperty: value from test profile1
