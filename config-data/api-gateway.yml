@@ -1,0 +1,14 @@
+server:
+  port: 8763
+  
+  
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: exampleservice5
+          uri: ${rewrite.backend.uri:lb://example-service5}
+          predicates:
+          - Path=/api-gateway/translate-service/**
+          filters:
+          - RewritePath=/api-gateway/translate-service/(?<segment>.*),/translate/$\{segment}
