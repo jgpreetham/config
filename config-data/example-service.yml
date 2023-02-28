@@ -1,7 +1,7 @@
 ---
 server:
   port: 8111
-config.someProperty: default profile value1
+config.someProperty: Example Service1 - Default Value
 ---
 spring:
     config:
@@ -9,4 +9,4 @@ spring:
             on-profile: test            
 server:
   port: 8110       
-config.someProperty: value from test profile2
+config.someProperty: Example Service1(test profile) - Default Value
